@@ -3,7 +3,9 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
+    "build:playground": "turbo build --filter=@repo/playground-web --ui stream",
     "dev": "turbo dev",
+    "dev:playground": "turbo dev --filter=@repo/playground-web --ui stream",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "test": "turbo test"
