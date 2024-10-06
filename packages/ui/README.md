@@ -24,3 +24,10 @@ import CLI from '@repo/ui/CLI';
     }
 }
 ```
+
+## Adding a new component
+
+```shell
+pnpm generate:component
+
+```
