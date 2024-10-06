@@ -7,4 +7,5 @@ module.exports = {
     project: "./tsconfig.lint.json",
     tsconfigRootDir: __dirname,
   },
+  ignorePatterns: ["jest.setup.mjs", "jest.config.mjs"],
 };
