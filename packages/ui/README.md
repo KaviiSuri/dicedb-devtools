@@ -28,6 +28,7 @@ import CLI from '@dicedb/ui/CLI';
 ## Adding a new component
 
 ```shell
+cd ./packages/ui
 pnpm generate:component
 
 ```

@@ -12,29 +12,14 @@ To start the playground using Docker, run:
 docker-compose up
 ```
 
-## Prerequisites
-
-Ensure you have the following installed:
-
-- **Node.js** (v16.13.0 or later)
-- **Yarn** (or npm)
-- **Next.js** (v14.2.13 or later)
-
-To ensure you're using the correct Node.js version, you can check or set up the required version using NVM:
-
-```bash
-nvm install 16.13.0
-nvm use 16.13.0
-```
-
 ## Installation
 
 Clone the repository and install the dependencies:
 
 ```bash
 git clone <repository-url>
-cd playground-web
-npm install
+cd apps/playground-web
+pnpm install
 ```
 
 ## Environment Variables
@@ -47,7 +32,7 @@ NEXT_PUBLIC_PLAYGROUND_MONO_URL=http://localhost:8080/
 To start the development server, run:
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 This will launch the app on [http://localhost:3000](http://localhost:3000). The app will automatically reload if you make changes to the code.
@@ -104,7 +89,7 @@ To ensure consistent code formatting, we use Prettier. It runs automatically as 
 To run Prettier and fix formatting issues locally:
 
 ```bash
-npm run prettier:format
+pnpm run prettier:format
 ```
 
 This command will format all `.js`, `.jsx`, `.ts`, `.tsx`, `.json`, and `.css` files.
@@ -142,13 +127,13 @@ To generate a static production build of your Next.js application, follow these 
 To create a production build:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 After the build is complete, you can start the production server with:
 
 ```bash
-npm run start
+pnpm run start
 ```
 
 ## Running the Test Cases
@@ -156,19 +141,19 @@ npm run start
 To run the test cases, execute the following command:
 
 ```bash
-npm run test
+pnpm run test
 ```
 
 To execute the test cases simultaneously as you make changes to the files, execute the following command:
 
 ```bash
-npm run test:watch
+pnpm run test:watch
 ```
 
 To get the test coverage of the project, execute the following command:
 
 ```bash
-npm run test:coverage
+pnpm run test:coverage
 ```
 
 ## Project Structure
