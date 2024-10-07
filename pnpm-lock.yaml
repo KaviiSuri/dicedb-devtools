@@ -57,13 +57,13 @@ importers:
         specifier: ^0.33.5
         version: 0.33.5
     devDependencies:
-      '@repo/eslint-config':
+      '@dicedb/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@repo/tailwind-config':
+      '@dicedb/tailwind-config':
         specifier: workspace:*
         version: link:../../tooling/tailwind-config
-      '@repo/typescript-config':
+      '@dicedb/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
       '@testing-library/dom':
@@ -124,10 +124,10 @@ importers:
         specifier: ^18.3.1
         version: 18.3.1
     devDependencies:
-      '@repo/eslint-config':
+      '@dicedb/eslint-config':
         specifier: workspace:*
         version: link:../../tooling/eslint-config
-      '@repo/typescript-config':
+      '@dicedb/typescript-config':
         specifier: workspace:*
         version: link:../../tooling/typescript-config
       '@testing-library/dom':

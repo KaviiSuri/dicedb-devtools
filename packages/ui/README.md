@@ -13,14 +13,14 @@ This is an [internal package](https://turbo.hector.im/repo/docs/handbook/sharing
 To use this package in your application, you can import the components directly from the source code.
 
 ```tsx
-import CLI from '@repo/ui/CLI';
+import CLI from '@dicedb/ui/CLI';
 ```
 
 ```jsonc
 {
     /* package.json */
     "dependencies": {
-        "@repo/ui": "workspace:*"
+        "@dicedb/ui": "workspace:*"
     }
 }
 ```
