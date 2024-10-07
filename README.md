@@ -8,8 +8,8 @@ This monorepo includes the following packages/apps:
 
 ### Apps and Packages
 
-- `playground-web`: an interactive platform designed to let users experiment with [DiceDB](https://github.com/dicedb/dice/) commands in a live environment, similar to the Go Playground
-- `@dicedb/ui`: a stub React component library shared by applications
+- `@dicedb/playground-web`: an interactive platform designed to let users experiment with [DiceDB](https://github.com/dicedb/dice/) commands in a live environment, similar to the Go Playground
+- `@dicedb/ui`: common UI components for alloy apps
 
 ### Configurations
 
