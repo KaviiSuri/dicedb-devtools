@@ -19,7 +19,7 @@ export const useShell = (decreaseCommandsLeft: () => void) => {
   const inputRef = useRef<HTMLInputElement>(null);
 
   const handleCommandWrapper = () => {
-    const commandName = command.trim().split(' ')[0].toUpperCase(); // Extract the command
+    const commandName = command.trim().split(' ')[0]!.toUpperCase(); // Extract the command
 
     if (blacklistedCommands.includes(commandName)) {
       setOutput((prevOutput) => [
@@ -88,7 +88,7 @@ export const useShell = (decreaseCommandsLeft: () => void) => {
         const newIndex = historyIndex + 1;
         setHistoryIndex(newIndex);
         setCommand(
-          filteredCommandHistory[filteredCommandHistory.length - 1 - newIndex],
+          filteredCommandHistory[filteredCommandHistory.length - 1 - newIndex]!,
         );
       }
     } else if (e.key === 'ArrowDown') {
@@ -103,7 +103,7 @@ export const useShell = (decreaseCommandsLeft: () => void) => {
           setCommand(
             filteredCommandHistory[
               filteredCommandHistory.length - 1 - newIndex
-            ],
+            ]!,
           );
         }
       }

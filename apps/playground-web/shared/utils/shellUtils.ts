@@ -9,6 +9,9 @@ export const handleCommand = async ({ command, setOutput }: CommandHandler) => {
 
   const [cmd, ...args] = command.split(' ');
 
+  if (!cmd) {
+    return;
+  }
   try {
     result = await executeShellCommandOnServer(cmd, args);
     setOutput((prevOutput) => [...prevOutput, newOutput, result]);

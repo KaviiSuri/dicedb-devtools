@@ -9,5 +9,5 @@ module.exports = {
   env: {
     jest: true,
   },
-  ignorePatterns: ["jest.setup.mjs", "jest.config.mjs"],
+  ignorePatterns: ["jest.setup.mjs", "jest.config.mjs", "out"],
 };
