@@ -8,7 +8,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "pnpx serve out",
     "lint": "eslint . --ext js,jsx,ts,tsx",
     "type-check": "tsc --noEmit",
     "prettier:format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,css}\"",
