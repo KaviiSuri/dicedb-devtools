@@ -1,10 +1,10 @@
 'use client';
 
 import React from 'react';
-import { Button } from '@/shared/components/Button';
 import { Twitter } from '@mui/icons-material';
 import GitHub from '@mui/icons-material/GitHub';
 import People from '@mui/icons-material/People';
+import { Button } from '@dicedb/ui/button';
 
 export default function Footer() {
   return (
